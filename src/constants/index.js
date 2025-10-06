@@ -3,31 +3,32 @@ export const myProjects = [
     id: 1,
     title: "Serverless Blog Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
+      "A fully serverless blogging app on AWS with Lambda, API Gateway, S3, and DynamoDB, featuring RESTful APIs and a responsive React frontend for scalable, secure content delivery.",
+    subDescription : [
+  "Engineered a serverless blog platform on AWS with auto-scaling and high availability, eliminating server management overhead.",
+  "Deployed 10+ RESTful CRUD APIs via Lambda and API Gateway and optimized DynamoDB schema with GSIs for faster queries and lower costs.",
+  "Launched a React frontend hosted on S3 with secure IAM policies, achieving reliable performance and 99.9% uptime."
+],
+
+
+    href: "https://github.com/HarshvardhanR/serverless-blog-platform",
     logo: "",
     image: "/assets/projects/skyposts.jpeg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "AWS DynamoDB",
+        path: "/assets/logos/dynamodb.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "AWS S3",
+        path: "/assets/logos/s3.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 4,
@@ -40,21 +41,21 @@ export const myProjects = [
     id: 2,
     title: "Real-Time Chat Application",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
+      "A real-time messaging app with live messaging, typing indicators, and presence tracking. Features secure JWT authentication, modular REST APIs, and optimized WebSocket communication for efficient performance.",
+    subDescription : [
+  "Delivered a MERN-based chat app supporting live messaging, typing indicators, and presence tracking for 20+ concurrent users.",
+  "Secured all API endpoints with JWT authentication and refresh tokens, and built modular REST APIs with full CRUD functionality for reliability.",
+  "Optimized WebSocket communication over REST polling, reducing server CPU load by 30%."
+],
+
+    href: "https://github.com/HarshvardhanR/RealTimeChatApp",
     logo: "",
     image: "/assets/projects/chatApp.webp",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Express",
+        path: "/assets/logos/express.svg",
       },
       {
         id: 2,
@@ -63,8 +64,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
@@ -77,36 +78,41 @@ export const myProjects = [
     id: 3,
     title: "HTTP-Based Database Management System",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
+      "A RESTful API built with Node.js and Express, supporting flexible data storage with MongoDB and PostgreSQL, enhanced with Redis caching and RabbitMQ for high performance and transactional consistency.",
+    subDescription : [
+  "Developed a RESTful HTTP API with Node.js and Express for efficient database management and rapid prototyping.",
+  "Integrated MongoDB and PostgreSQL, with Redis caching and RabbitMQ queues for fast, consistent data handling.",
+  "Designed modular endpoints and service layers for scalable, maintainable MicroSaaS applications."
+],
+
+    href: "https://github.com/HarshvardhanR/http-dbms",
     logo: "",
     image: "/assets/projects/http.webp",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Express",
+        path: "/assets/logos/express.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Redis",
+        path: "/assets/logos/redis.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "RabbitMQ",
+        path: "/assets/logos/rabbitmq.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "PostgreSQL",
+        path: "/assets/logos/postgresql.svg",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
     ],
   },
@@ -114,36 +120,31 @@ export const myProjects = [
     id: 4,
     title: "World War III - A CLI-Based Game",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
+      "A Java-based command-line strategy game leveraging design patterns (Observer, MVC, Command, Strategy) for scalable gameplay. Features real-time asynchronous log tracing and automated Maven + Git CI/CD for efficient development and deployment.",
+    subDescription : [
+  "Led development of a CLI-based Risk-style strategy game in Java with a team of 6, delivered in 4 Scrum sprints.",
+  "Applied Observer, MVC, Command, and Strategy patterns to reduce technical debt and simplify feature extensions.",
+  "Built asynchronous log tracing and automated Maven + Git CI/CD deployment to improve debugging and speed up release cycles."
+],
+
+    href: "https://github.com/HarshvardhanR/World-War-III",
     logo: "",
     image: "/assets/projects/WW3.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Java",
+        path: "/assets/logos/java.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Maven",
+        path: "/assets/logos/maven.svg",
       },
       {
         id: 3,
         name: "Git",
         path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
       },
     ],
   },
@@ -151,26 +152,26 @@ export const myProjects = [
     id: 5,
     title: "Flight Delay Prediction",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
+      "A predictive system using Python and machine learning to forecast flight delays. Incorporates feature engineering, model evaluation, and visualization, deployed via a Flask web app for real-time user interaction.",
+    subDescription : [
+  "Developed a predictive model to forecast flight delays using Python, leveraging historical flight data and relevant features.",
+  "Applied machine learning algorithms with data preprocessing, feature engineering, and model evaluation to improve prediction accuracy.",
+  "Visualized results using Matplotlib and Seaborn and deployed the model via a Flask web application for user interaction."
+],
+
+    href: "https://github.com/HarshvardhanR/Flight-Delay-Prediction",
     logo: "",
     image: "/assets/projects/fd.png",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        name: "Flask",
+        path: "/assets/logos/flask.svg",
       },
       {
         id: 3,
@@ -179,45 +180,45 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
     ],
   },
   {
     id: 6,
-    title: "EEG Decoding",
+    title: "EEG Decoding for P300 Signals",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
+      "A machine learning and deep learning project analyzing EEG signals to classify P300 event-related potentials. Explored multiple model architectures and preprocessing techniques, achieving high accuracy and efficient signal decoding.",
+    subDescription : [
+  "Analyzed EEG signals to classify P300 event-related potentials using machine learning and deep learning models.",
+  "Evaluated multiple architectures including EEGNet, DeepConvNet, ShallowConvNet, MAtt, MLP, and LSTM-CNN for accuracy and efficiency.",
+  "Preprocessed EEG data and implemented feature extraction, achieving up to 92% classification accuracy with DeepConvNet."
+],
+
+    href: "https://github.com/HarshvardhanR/EEG-Decoding",
     logo: "",
     image: "/assets/projects/eeg.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "Numpy",
+        path: "/assets/logos/numpy.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "Pandas",
+        path: "/assets/logos/pandas.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "TensorFlow",
+        path: "/assets/logos/tensorflow.svg",
       },
     ],
   },
