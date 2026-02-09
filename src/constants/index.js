@@ -246,7 +246,7 @@ export const experiences = [
   {
     title: "Full Stack Developer Intern",
     job: "Media Platforms",
-    date: "June 2021 - June 2022",
+    date: "June 2021 - November 2021",
     contents: [
       "Optimized front-end performance, improving page load speed by 25% through restructuring HTML/CSS, removing render-blocking scripts, and implementing lazy loading strategies.",
       "Increased backend query performance by 30% by redesigning filtering logic and introducing targeted MongoDB indexing, reducing response times on high-traffic endpoints",
